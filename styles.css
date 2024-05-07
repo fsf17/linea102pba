@@ -1,0 +1,161 @@
+@charset 'UTF-8';
+
+
+html {
+    font-size: 16px;
+    font-weight: 400px; ;
+    line-height: 1.5;
+
+}
+
+* {
+    
+    margin: 2px;
+    padding: 2px;
+   }
+
+body {
+    min-width: 450px;
+    max-width: 1200px;
+}
+
+.body{
+    background-color: rgb(140, 140, 143);
+}
+
+/* Comieno Header */
+
+.Header {
+    height: 40vh;
+    width: 100vw;
+    border:3px #03045E solid ;
+    background-color: #0096C7;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Header .section {}
+
+.Header .section article {}
+
+.nav {
+    height: 50px;
+    background-color:#023E8A;
+    text-align: center;
+}
+
+.nav .nav__ul {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.nav .nav__ul--li {
+    float: left;
+    margin-top: 10px;
+}
+
+.nav .nav__text {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+}
+
+
+
+.btn {}
+
+.btn .btn__figure {}
+
+.btn .btn__figure--img {}
+
+.btn .btn__text {}
+
+
+/* Comienzo Aside */
+
+.Aside {
+    float: left;
+    width: 32vh;
+    height: 70vh;
+    background-color: #90E0EF;
+    margin-top: 10px;
+    padding: 3px;
+    box-sizing: border-box;
+    border: 3px #03045E solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+
+}
+
+.Aside .section{
+    background-color: #90E0EF;
+}
+
+.Aside .section .article {
+    background-color: #90E0EF;
+}
+
+
+/*Comieno Main*/
+
+.Main{
+    height: 70vh;
+    width: 80vw;
+    background-color : #adb5bd  ;
+    margin-left: 35vh;
+    margin-top: 10px;
+    border: 3px #03045E solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.Main .section {}
+
+.Main .section .article {}
+
+.menu {
+    line-height: 10px;
+    font-size: 16px;
+    float:left;
+    margin-right: 10%;
+}
+
+.menu__list {
+    
+}
+
+.menu__list--item {
+    
+}
+
+
+
+
+/*Comienzo */
+
+.Footer{
+    height: 15vh;
+    width: 100vw;
+    background-color: #00B4D8 ;
+    border: 3px #03045E solid;
+}
+.Footer .section {}
+
+.Footer .section .article {
+   text-align: center;
+}
+
+.menu {}
+
+.menu__list {}
+
+.menu__list--item {}
